@@ -1,4 +1,4 @@
-import { Aggregate, Ok, Result, UID } from 'types-ddd';
+import { Aggregate, Ok, Result, UID } from '@type-ddd/core';
 import User from '../../user/user.aggregate';
 import ChatMessage from '../message/chat-message.aggregate';
 

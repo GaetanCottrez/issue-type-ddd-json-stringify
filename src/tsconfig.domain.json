@@ -1,0 +1,17 @@
+{
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "../dist",
+    "rootDir": "./",
+    "strict": true,
+    "baseUrl": ".",
+    "skipLibCheck": false /* Skip type checking of declaration files. */,
+    "paths": {
+      "*": ["../node_modules/@types/*", "./types/*"]
+    },
+    "noImplicitAny": false,
+    "removeComments": true
+  }
+}

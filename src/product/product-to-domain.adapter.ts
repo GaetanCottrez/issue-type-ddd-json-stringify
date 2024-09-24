@@ -1,5 +1,5 @@
-import {ProductModel} from "domain/product/product.repository.interface";
-import { Class, IAdapter, ID, IResult, Result, ValueObject } from 'types-ddd';
+import {ProductModel} from "../product/product.repository.interface";
+import { Class, IAdapter, ID, IResult, Result, ValueObject } from '@type-ddd/core';
 import ProductName from './product-name.value-object';
 import ProductPrice from './product-price.value-object';
 import Product from './product.aggregate';

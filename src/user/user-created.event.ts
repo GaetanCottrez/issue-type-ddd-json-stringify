@@ -1,4 +1,4 @@
-import { EventHandler } from 'types-ddd';
+import { EventHandler } from '@type-ddd/core';
 import User from './user.aggregate';
 
 export class UserCreated extends EventHandler<User> {

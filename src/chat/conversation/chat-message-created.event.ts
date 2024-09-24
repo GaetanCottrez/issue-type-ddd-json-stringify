@@ -1,4 +1,4 @@
-import { EventHandler } from 'types-ddd';
+import { EventHandler } from '@type-ddd/core';
 import ChatConversation from './chat-conversation.aggregate';
 
 export class ChatMessageCreated extends EventHandler<ChatConversation> {

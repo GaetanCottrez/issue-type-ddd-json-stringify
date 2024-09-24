@@ -1,4 +1,4 @@
-import { Aggregate, Result, UID, UrlValueObject } from 'types-ddd';
+import { Aggregate, Result, UID } from '@type-ddd/core';
 
 export interface ChatMessageProps {
   id?: UID;
@@ -30,9 +30,7 @@ export class ChatMessage extends Aggregate<ChatMessageProps> {
 
   static validUrl(url: string | undefined) {
     if (url === undefined) return undefined;
-
-    const attachmentValueObject = UrlValueObject.create(url);
-    return attachmentValueObject.value().get('value');
+    return url;
   }
 
   addAttachment(attachment: string) {

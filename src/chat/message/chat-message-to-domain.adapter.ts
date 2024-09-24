@@ -1,4 +1,4 @@
-import { IAdapter, ID, IResult } from 'types-ddd';
+import { IAdapter, ID, IResult } from '@type-ddd/core';
 import ChatMessage from './chat-message.aggregate';
 import { ChatMessageModel } from '../conversation/chat-conversation.repository.interface';
 

@@ -1,4 +1,4 @@
-import { Aggregate, Ok, Result, UID } from 'types-ddd';
+import { Aggregate, Ok, Result, UID } from '@type-ddd/core';
 import ProductName from './product-name.value-object';
 import ProductPrice from './product-price.value-object';
 

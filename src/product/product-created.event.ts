@@ -1,4 +1,4 @@
-import { EventHandler } from 'types-ddd';
+import { EventHandler } from '@type-ddd/core';
 import Product from './product.aggregate';
 
 export class ProductCreated extends EventHandler<Product> {

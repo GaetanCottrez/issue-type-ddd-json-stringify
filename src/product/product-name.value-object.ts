@@ -1,4 +1,4 @@
-import { IResult, Result, ValueObject } from 'types-ddd';
+import { IResult, Result, ValueObject } from '@type-ddd/core';
 
 export class ProductName extends ValueObject<string> {
   private constructor(value: string) {
